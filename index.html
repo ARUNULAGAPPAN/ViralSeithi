@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viral Seithigal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="sidebar-top">
+                <a href="#" class="logo-wrapper">
+                    <div class="logo">A</div>
+                </a>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="sidebar-bottom">
+                <a href="#" class="sidebar-user">
+                    <img src="https://i.pravatar.cc/40?img=1" alt="User Avatar">
+                
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-globe"></i>
+                   
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-flag-usa"></i>
+                    
+                </a>
+            </div>
+        </aside>
+
+
+        <main class="main-content">
+        
+            <header class="header">
+                 <nav class="topics">
+    
+                    <a href="#" class="topic-item active" data-category="general"># Popular</a>
+                    <a href="#" class="topic-item" data-category="general"># Favorite</a> <!-- Placeholder -->
+                    <a href="#" class="topic-item" data-category="politics"># Politics</a>
+                    <a href="#" class="topic-item" data-category="entertainment"># Videos</a> <!-- Mapped to entertainment -->
+                    <a href="#" class="topic-item" data-category="general"># Trend</a>
+                    <a href="#" class="topic-item" data-category="business"># Business</a>
+                    <a href="#" class="topic-item" data-category="science"># Science</a>
+                    <a href="#" class="topic-item" data-category="sports"># Sport</a>
+                    <a href="#" class="topic-item" data-category="technology"># IT</a>
+                </nav>
+                
+                <div class="search-bar">
+                     <input type="text" id="search-input" placeholder="Search">
+                     <i class="fa-solid fa-magnifying-glass" id="search-button"></i>
+                </div>
+            </header>
+            <div id="news-grid" class="news-grid">
+                <div class="loading-spinner"></div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
